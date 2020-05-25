@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./utils/retangulo.js"></script>
+  <script src="./utils/conta.js"></script>
+  <title>Atividade 7</title>
+</head>
+
+<body>
+
+  <script>
+    alert("Vá em console para ver os dados");
+
+    //RetânguloObj
+    console.log("--Retângulo--");
+    
+    var retObj = new Retangulo(3,4);
+    console.log("Área do retângulo: " + retObj.calcArea());
+    console.log("\n");
+
+    //ContaObj
+    var correnteObj = new Corrente();
+
+    correnteObj.setNmCrntst("Rafael Luiz Pereira");
+    correnteObj.setBanco("Banco do Brasil");
+    correnteObj.setNumConta("1417-0");
+    correnteObj.setSaldo(1500);
+    correnteObj.setSaldoEspecial(600);
+
+    console.log("--Conta corrente--");
+    console.log("Nome correntista: " + correnteObj.getNmCrntst());
+    console.log("Banco: " + correnteObj.getBanco());
+    console.log("Número da conta: " + correnteObj.getNumConta());
+    console.log("Saldo: " + correnteObj.getSaldo());
+    console.log("Saldo especial: " + correnteObj.getSaldoEspecial());
+    console.log("\n");
+
+    var poupancaObj = new Poupanca();
+
+    poupancaObj.setNmCrntst("Rafael Luiz Pereira");
+    poupancaObj.setBanco("Banco do Brasil");
+    poupancaObj.setNumConta("1917-5");
+    poupancaObj.setSaldo(2600);
+    poupancaObj.setJuros(2);
+    poupancaObj.setDtVencimento("09/09/2020");
+
+    console.log("--Poupança--");
+    console.log("Nome correntista: " + poupancaObj.getNmCrntst());
+    console.log("Banco: " + poupancaObj.getBanco());
+    console.log("Número da conta: " + poupancaObj.getNumConta());
+    console.log("Saldo: " + poupancaObj.getSaldo());
+    console.log("Juros: " + poupancaObj.getJuros() + "%");
+    console.log("Data Vencimento: " + poupancaObj.getDtVencimento());
+    console.log("\n");
+
+  </script>
+  
+</body>
+</html>
