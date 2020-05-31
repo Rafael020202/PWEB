@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+#imgNavbar {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.title {
+  background-color: #343a40;
+  color: white;
+  padding: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar img:hover {
+  transform: scale(1.05, 1.05);
+}
+
+#contato {
+  border-radius: 5px;
+  padding: 50px;
+  background-color: #343a40;
+  color: white;
+}
+
+.jumbotron {
+  background-image: url('../images/698137.jpg');
+  background-size: cover;
+  color: white;
+}
+
+#arrow {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+}
+
+#arrow:hover {
+  cursor: pointer;
+}
