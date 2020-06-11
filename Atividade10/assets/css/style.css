@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+#container {
+  width: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #888888;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+}
+
+#container #head {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+
+#formulario {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#formulario input {
+  height: 30px;
+  margin-bottom: 16px;
+}
+
+#formulario input, textarea {
+  border: 1px solid #8870FF;
+  outline: none;
+  border-radius: 3px;
+}
+
+#form02 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#form02 #radios{
+  margin: 5px 0 5px 0;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}

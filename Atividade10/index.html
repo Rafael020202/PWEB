@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/handle.js"></script>
+  <title>Atividade 10</title>
+</head>
+<body>
+  <div id="container">
+    <div id="head">
+      <h2>Formulário Principal</h2>
+    </div>
+
+    <hr>
+
+    <form id="formulario" name="frml">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" class="inpt">
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" class="inpt">
+
+      <label for="comentario">Comentário:</label>
+      <textarea 
+        name="" 
+        id="comentario" 
+        cols="30" 
+        rows="10"
+        class="inpt"></textarea>
+    
+        <div id="form02">
+          <h2>Pesquisa</h2>
+          Primeira vez na página
+    
+          <div id="radios">
+            <input type="radio" name="res" checked> Sim
+            <input type="radio" name="res"> Não
+          </div>
+    
+          <div id="buttons">
+            <button onclick="isValid(event)">Enviar</button>
+            <button onclick="limpar(event)">Limpar</button>
+          </div>
+    
+        </div>    
+      </form>
+
+    
+  </div>
+
+</body>
+</html>
